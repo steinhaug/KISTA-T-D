@@ -3,7 +3,8 @@
 - Safe word, each player needs to set their safe word.
 - Set round length, 5 turns, 10 turns or 15 turns.
 - Set amount of "Free pass" cards. Default 1. Used to pass a dare or truth and avoid douing it, will however give you a new truth or dare instead. Reshuffled.
- 
+  Chose to send to next player, or new card.
+
 ## Dare definitions
 - Comfort level. Labeled with intensity score, 1-6. Platonic (1), flirty (2), intimate (3), daring (4), kinky (5), dominator (6).
 - Categorized for theme. Categorized as one of currently 6 themes: fantasy, secret, kinky, embarrassing, twilight zone, mindfuck  
@@ -21,6 +22,9 @@
 - each round gives the playes a choice to increase levels for comfort, levels are: Platonic (1), flirty (2), intimate (3), daring (4), kinky (5), dominator (6).
 - using a freepass-card will void current "truth or dare" choice, and give the player a new "truth or dare".
 - a successfull dare should be rated by the next player, the rating is for how the dare was presented and how much the other player appretiated it. Like a customer service satisfaction score. Ehhh (-1), Check (0) and Nice (1)! From this there is a possible score to calculate for later use.
+
+
+
 
 
 # Working with the dares and truths
