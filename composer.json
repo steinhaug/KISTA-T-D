@@ -1,0 +1,16 @@
+{
+    "name": "steinhaug/kista-td",
+    "description": "Lorem lipsum",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kim Steinhaug",
+            "email": "kim@steinhaug.com"
+        }
+    ],
+    "require": {
+        "steinhaug/mysqli": "^1.6",
+        "steinhaug/sqlbuddy": "^1.3"
+    }
+}

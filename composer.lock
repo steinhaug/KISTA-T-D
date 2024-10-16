@@ -1,0 +1,129 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "e7a3507c109c06bbe5c224832c94c71a",
+    "packages": [
+        {
+            "name": "steinhaug/mysqli",
+            "version": "v1.6.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/steinhaug/mysqli.git",
+                "reference": "1504bd001342a40175a354b3dd8bc36511c48425"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/steinhaug/mysqli/zipball/1504bd001342a40175a354b3dd8bc36511c48425",
+                "reference": "1504bd001342a40175a354b3dd8bc36511c48425",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=8.0.0"
+            },
+            "require-dev": {
+                "squizlabs/php_codesniffer": "*",
+                "steinhaug/sqlbuddy": "*",
+                "steinhaug/uarpc": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Kim Steinhaug",
+                    "email": "kim@steinhaug.com",
+                    "homepage": "http://kim.steinhaug.com",
+                    "role": "developer"
+                }
+            ],
+            "description": "Mysqli Abstraction Layer",
+            "homepage": "https://gitlab.com/steinhaug/mysqli",
+            "keywords": [
+                "database",
+                "mysqli",
+                "prepared statments"
+            ],
+            "support": {
+                "docs": "https://gitlab.com/steinhaug/mysqli/-/wikis/home",
+                "email": "steinhaug@gmail.com",
+                "issues": "https://gitlab.com/steinhaug/mysqli/-/issues",
+                "source": "https://gitlab.com/steinhaug/mysqli"
+            },
+            "funding": [
+                {
+                    "url": "https://steinhaug.com/donate/",
+                    "type": "Suck up to the developer"
+                }
+            ],
+            "time": "2024-06-10T11:38:51+00:00"
+        },
+        {
+            "name": "steinhaug/sqlbuddy",
+            "version": "v1.3.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/steinhaug/sqlbuddy.git",
+                "reference": "e82c720beb5cb67ce3dadff3d9d7a9233cc4b1b7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/steinhaug/sqlbuddy/zipball/e82c720beb5cb67ce3dadff3d9d7a9233cc4b1b7",
+                "reference": "e82c720beb5cb67ce3dadff3d9d7a9233cc4b1b7",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": "^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "sqlbuddy": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kim Steinhaug",
+                    "email": "kim@steinhaug.com",
+                    "homepage": "http://kim.steinhaug.com"
+                }
+            ],
+            "description": "My personal SQL friend",
+            "homepage": "https://kim.steinhaug.com",
+            "keywords": [
+                "query builder",
+                "sql insert",
+                "sql update"
+            ],
+            "support": {
+                "issues": "https://github.com/steinhaug/sqlbuddy/issues",
+                "source": "https://github.com/steinhaug/sqlbuddy/tree/v1.3.4"
+            },
+            "time": "2024-08-22T19:20:51+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
