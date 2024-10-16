@@ -1,6 +1,9 @@
 # KISTA T&D
 
-This is the StAInhaug edition of truth or dare.
+This is the StAInhaug edition of truth or dare and a fresh take on the Astrology Horoscope maker.
+
+Working title: Truth & Dare - stAInhaug style
+Working title: THE ULTIMATOS HOROSKOPOS - ASTROLOGICUS UNIVERSUM NORWEGIA!  
 
 ## log
 
