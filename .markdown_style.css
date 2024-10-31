@@ -50,7 +50,6 @@ div[data-llm*="claude" i]::before {
   display: inline-block;
   margin-right: 5px;
 }
-
 div[data-prompt*="system" i] {
     border: 1px solid #004b00;
     background-color: #d5f7da;
