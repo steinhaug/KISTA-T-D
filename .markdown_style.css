@@ -6,9 +6,7 @@ h2,h3 {border-bottom: 1px dotted #000;margin-bottom:1em;padding-bottom:0.25em;}
 pre { background-color:#f8f8f8 !important; border: 1px dotted #ccc;}
 code { color: #000 !important; }
 
-div.q, 
-div[data-llm], 
-p.q, h5 {
+div[data-prompt], div.q, div[data-llm], p.q, h5 {
     border: 1px solid #ccc;
     border-radius: 10px;
     background-color: #ddd;
@@ -17,27 +15,26 @@ p.q, h5 {
     margin-left: 10%;
     padding: 0.5em 1em;
     border-top: 2px solid #888;
+    margin-bottom: 1em;
 }
-div.q pre {
-  background-color: #eee !important;
-  padding: 10px;
-}
-
 div[data-llm] {
     margin-left: 0%;
     margin-right: 10%;
     border-top: 2px solid #492e58;
     background-color: #b8a0df;
-    margin-bottom: 1em;
+}
+
+div[data-prompt] pre, div.q pre, div[data-llm] pre {
+    background-color: #eee !important;
+    padding: 10px;
 }
 div[data-llm] pre {
   background-color: #e5cef5 !important;
-  padding: 10px;
 }
-div.q code,
-div[data-llm] code {
+div[data-prompt] code, div.q code, div[data-llm] code {
     font-weight: 400;
 }
+
 div[data-llm*="openai" i]::before {
   content: "ChatGPT 👋 ";
   display: inline-block;
@@ -52,4 +49,16 @@ div[data-llm*="claude" i]::before {
   content: "Claude 👋 ";
   display: inline-block;
   margin-right: 5px;
+}
+
+div[data-prompt*="system" i] {
+    border: 1px solid #004b00;
+    background-color: #d5f7da;
+    border-top: 2px solid #0c9400;
+}
+div[data-prompt*="system" i] pre {
+  background-color: #eaf8ed !important;
+}
+div[data-prompt*="system" i] code {
+  color: #004b00 !important;
 }
