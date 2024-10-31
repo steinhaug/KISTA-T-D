@@ -7,6 +7,10 @@ Working title: THE ULTIMATOS HOROSKOPOS - ASTROLOGICUS UNIVERSUM NORWEGIA!
 
 ## log
 
+tor 31 okt
+- added horoscope files
+- changed file structure
+
 ons 16 okt
 - added barnum statements from different LLMs
 - parsed barnum statements and added into database
