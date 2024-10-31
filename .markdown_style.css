@@ -1,0 +1,55 @@
+body {background-color: #eee;color:#000;}
+dd { margin-left:0;padding-left:0em;color: #818;}
+h1, h2, h3 { font-weight:bold;color:#818;}
+h2:before {content:">";position:absolute;left:-20px;}
+h2,h3 {border-bottom: 1px dotted #000;margin-bottom:1em;padding-bottom:0.25em;}
+pre { background-color:#f8f8f8 !important; border: 1px dotted #ccc;}
+code { color: #000 !important; }
+
+div.q, 
+div[data-llm], 
+p.q, h5 {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #ddd;
+    color: #333;
+    width: 90%;
+    margin-left: 10%;
+    padding: 0.5em 1em;
+    border-top: 2px solid #888;
+}
+div.q pre {
+  background-color: #eee !important;
+  padding: 10px;
+}
+
+div[data-llm] {
+    margin-left: 0%;
+    margin-right: 10%;
+    border-top: 2px solid #492e58;
+    background-color: #b8a0df;
+    margin-bottom: 1em;
+}
+div[data-llm] pre {
+  background-color: #e5cef5 !important;
+  padding: 10px;
+}
+div.q code,
+div[data-llm] code {
+    font-weight: 400;
+}
+div[data-llm*="openai" i]::before {
+  content: "ChatGPT 👋 ";
+  display: inline-block;
+  margin-right: 5px;
+}
+div[data-llm*="gemini" i]::before {
+  content: "Gemini 👋 ";
+  display: inline-block;
+  margin-right: 5px;
+}
+div[data-llm*="claude" i]::before {
+  content: "Claude 👋 ";
+  display: inline-block;
+  margin-right: 5px;
+}
