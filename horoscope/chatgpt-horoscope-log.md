@@ -1,3 +1,4 @@
+<pre>
 You strive for success but sometimes feel like you're not achieving your full potential.
 You value financial stability, but you’re also open to taking calculated risks when necessary.
 You’ve been saving up for a big purchase or investment that’s important to you.
@@ -20,14 +21,12 @@ positiv
 You have a strong desire for creativity and self-expression.
 You've learned valuable lessons from your creative experiences.
 You're curious about different forms of artistic expression.
+</pre>
 
 
 
 
-Hello ChatGPT 
-
-
-You are my co-worker as we develop my new app which writes horosopes. Your job is to rewrite my submissions containing data I will explain below, and come up with a lively and interesting horoscope that uses modern and creative language. The data you recieve are not ment as copy and paste, but as inspirational material you can be creative with. I will give you a birth date, optionally with birth place and time for the birth in the day. This is the data you need to do some generic astrology preperations. Next you will recieve a set of sentences grouped into different categories. It is imporant to note that each sentence is a barnum statement. What I would like for you to do is come up with a paragraph with fluent language in each of the categories, using your generic precalculated astrology magic from the date and place given- using the barnum statments.
+<div data-prompt="system">You are my co-worker as we develop my new app which writes horosopes. Your job is to rewrite my submissions containing data I will explain below, and come up with a lively and interesting horoscope that uses modern and creative language. The data you recieve are not ment as copy and paste, but as inspirational material you can be creative with. I will give you a birth date, optionally with birth place and time for the birth in the day. This is the data you need to do some generic astrology preperations. Next you will recieve a set of sentences grouped into different categories. It is imporant to note that each sentence is a barnum statement. What I would like for you to do is come up with a paragraph with fluent language in each of the categories, using your generic precalculated astrology magic from the date and place given- using the barnum statments.
 
 A typical submission from me will look like this:
 
@@ -45,11 +44,11 @@ A typical submission from me will look like this:
     - You've learned valuable lessons from your creative experiences.
     - You're curious about different forms of artistic expression.
 
-Does this sound ok ? 
+Does this sound ok ?</div>
 
 
 
-Name: Kim Steinhaug. Birth: 2 june 1975. Place: Kristiansand, Norway. Time: 01:10 PM.
+<div data-prompt="prompt">Name: Kim Steinhaug. Birth: 2 june 1975. Place: Kristiansand, Norway. Time: 01:10 PM.
 * Career and Finance
 - You have untapped potential in your career that you're eager to explore.
 - You value job satisfaction as much as financial reward.
@@ -63,21 +62,9 @@ Name: Kim Steinhaug. Birth: 2 june 1975. Place: Kristiansand, Norway. Time: 01:1
 - You've learned valuable lessons from your creative experiences.
 - You're curious about different forms of artistic expression.
 
-Please translate your answer into norwegian aswell.
+Please translate your answer into norwegian aswell.</div>
 
-
-1 Career and Finance
-2 Travel and exploration
-3 Creativity and hobbies
-4 Personal growth and development
-5 Health and wellness
-6 Love and relationship
-7 Intimacy and connection
-8 Sexuality and pleasure
-
-
-
-Name: Susanne Blondi. Birth: 24 desember 1980. Place: Vatsø, Norway. Time: 00:01 AM.
+<div data-prompt="prompt">Name: Susanne Blondi. Birth: 24 desember 1980. Place: Vatsø, Norway. Time: 00:01 AM.
 * Career and Finance
   - You have untapped potential in your career that you're eager to explore.
   - You value job satisfaction as much as financial reward.
@@ -97,16 +84,24 @@ Name: Susanne Blondi. Birth: 24 desember 1980. Place: Vatsø, Norway. Time: 00:0
   - You have a deep-seated fear of sexual intimacy.
   - Astrological magic ensures this is not an issue if and when dating a "Gemini", something to be encourraged
 
-Please translate your answer into norwegian aswell.
+Please translate your answer into norwegian aswell.</div>
 
-
+<pre class="doc">
+1 Career and Finance
+2 Travel and exploration
+3 Creativity and hobbies
+4 Personal growth and development
+5 Health and wellness
+6 Love and relationship
+7 Intimacy and connection
+8 Sexuality and pleasure
 
 
 Seksualitet og Nytelse
 Dine ønsker kan både være enkle og sammensatte, avhengig av humør eller sinnsstemning. Du forstår viktigheten av å kjenne både dine egne behov og partnerens, da ekte tilfredsstillelse ligger i gjensidig forståelse. Selv om du liker å utforske nye måter å oppleve nytelse på, verdsetter du også det kjente. Noen ganger hjelper en bestemt sinnsstemning deg med å koble deg helt til intime øyeblikk. Astrologisk sett kan et forhold til en Tvilling være spesielt gunstig, da de tilbyr et trygt rom for å utforske disse sidene av deg selv uten frykt eller tvil.
+</pre>
 
-
-Name: Susanne Blondi. Birth: 24 desember 1980. Place: Vatsø, Norway. Time: 00:01 AM.
+<div class="q">Name: Susanne Blondi. Birth: 24 desember 1980. Place: Vatsø, Norway. Time: 00:01 AM.
 * Career and Finance
   - Your career is a total failure and you're to blame.
   - You're not even making enough to cover your living expenses.
@@ -128,8 +123,9 @@ Name: Susanne Blondi. Birth: 24 desember 1980. Place: Vatsø, Norway. Time: 00:0
   - You enjoy exploring your sexuality in a way that feels authentic to you.
   * Future warning regarding Sexuality and pleasure
     - You tend to sabotage your own sexual encounters, only "Gemini" is astrologically protected against sabotage. 
+</div>
 
-Name: Susanne Blondi. Birth: 24 desember 1980. Place: Vatsø, Norway. Time: 00:01 AM.
+<div class="q">Name: Susanne Blondi. Birth: 24 desember 1980. Place: Vatsø, Norway. Time: 00:01 AM.
 * Important focus for "Intimacy and connection"
   - You've taken up couple's dancing to enhance physical intimacy with your partner.
   - You're learning about non-violent communication techniques.
@@ -146,7 +142,7 @@ Name: Susanne Blondi. Birth: 24 desember 1980. Place: Vatsø, Norway. Time: 00:0
   - You have a deep-seated fear of failure that holds you back.
 * Astrological spell of insight, "Plan B"
   - A complete selfless sexual affair with a twin, over a period of at least 2 days and completely without focus on yourself will turn everything around.
-
+</div>
 
 + "SELECT `score`, `statement` FROM `barnum_statements` WHERE `catId`=1 AND `score` > 5 ORDER BY RAND() LIMIT 5"
 - "SELECT `score`, `statement` FROM `barnum_statements` WHERE `catId`=1 AND `score` < -5 ORDER BY RAND() LIMIT 5"
