@@ -4,7 +4,7 @@ require 'vendor/autoload.php';
 require 'credentials.php';
 
 
-function process_directory($dir = './data/') {
+function process_directory($dir = './data-barnum/') {
     $files = scandir($dir);
     foreach ($files as $file) {
         if ($file != '.' && $file != '..') {
